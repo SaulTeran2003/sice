@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
         <div class="card fat">
           <div class="card-body">
-            <h4 class="card-title text-center">SICE</h4>
+            <h4 class="card-title text-center"></h4>
             <form method="POST" class="my-login-validation">
               <div class="form-group my-3">
                 <label for="email">Correo Electrónico</label>
