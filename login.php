@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SICAH | Login</title>
+  <title>SICE | </title>
   <link rel="icon" href="img/logoSICAH.ico" type="image/x-icon">
   <link href="./css/bootstrap.min.css" rel="stylesheet" />
   <link href="./css/styles.css" rel="stylesheet" />
@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
         <div class="card fat">
           <div class="card-body">
-            <h4 class="card-title text-center">SICAH Web</h4>
+            <h4 class="card-title text-center">SICE</h4>
             <form method="POST" class="my-login-validation">
               <div class="form-group my-3">
                 <label for="email">Correo Electrónico</label>
@@ -78,7 +78,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
               <div class="form-group mt-4 d-flex justify-content-center">
                 <button type="submit" class="btn btn-primary w-100">
-                  Iniciar Sesión
+                  Siguiente
                 </button>
               </div>
               <div class="mt-4 text-end f-12">
