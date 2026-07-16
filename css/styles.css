@@ -28,7 +28,7 @@ body {
 /* color interfaz*/
 .bg-primary,
 .btn-primary {
-  background-color: #b6e40f !important;
+  background-color: #c40fe4 !important;
   /* Ruta de tu imagen */
   background-image: url('ESIME.jpg') !important; 
   /* Centra la imagen */
