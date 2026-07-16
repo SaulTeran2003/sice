@@ -158,6 +158,8 @@ html,body {
   color: #7ad449;
   font-size: 16px;
   font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+   position: relative;
+    top: -30px;
 }
 .svg-inline--fa.fa-w-16 {
   width: 1em;
