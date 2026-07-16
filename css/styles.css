@@ -148,7 +148,10 @@ html,body {
 /*//////////////////////////////////////////////////////////*/
 /*color de la barra de gobierno arriba*/
 #barraGobmx2 {
-  background: #519f1d;
+  background-image: url("../img/ENCABEZADO.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 #barraGobmx2 a{
   color: #fff;
