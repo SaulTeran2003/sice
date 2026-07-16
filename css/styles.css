@@ -28,15 +28,7 @@ body {
 /* color interfaz*/
 .bg-primary,
 .btn-primary {
-  background-color: #c40fe4 !important;
-  /* Ruta de tu imagen */
   background-image: url('ESIME.jpg') !important; 
-  /* Centra la imagen */
-  background-position: center !important; 
-  /* Ajusta la imagen al tamaño del contenedor */
-  background-size: cover !important; 
-  /* Evita que la imagen se repita */
-  background-repeat: no-repeat !important; 
 }
 /*/////////////////////////////////////////////////////*/
 /*colores del boton que sellecciona iniciar sesion*/
