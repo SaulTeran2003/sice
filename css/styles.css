@@ -74,7 +74,7 @@ html,body {
   border-radius: 15%;
   box-shadow: 0 4px 8px rgba(0,0,0,.05);
   border: 5px solid rgb(5, 128, 24);
-   background: #0f9f38;
+   background: transparent;
 }
 
 .my-login-page .card.fat {
