@@ -179,12 +179,8 @@ html,body {
 /*//////////////////////////////////////////////////////////*/
 /*color del apartado gobierno info*/
 .main-footer .list-info {
-  /*background-color: #611232;*/
+  background-color: #611232;
   padding: 30px 0 70px;
-  background-image: url("../img/FONDO.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 /*color de las letras de la info de gobierno de la parte de abajo */
 .main-footer h5 {
