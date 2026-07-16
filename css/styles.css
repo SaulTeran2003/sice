@@ -49,7 +49,7 @@ html,body {
   margin: 0;
     width: 100%;
     height: 100%;
-    background-image: url("../img/CENTRO.jpg");
+    background-image: url("../img/ESIME.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -78,10 +78,8 @@ html,body {
 }
 /*/////////////////////////////////////////////////////////////*/
 .my-login-page .card {
-  border-radius: 15%;
-  box-shadow: 0 4px 8px rgba(0,0,0,.05);
-  border: 5px solid rgb(5, 128, 24);
-   background: transparent;
+ 
+   background-image: url("../img/FORMULARIO.jpg");
 }
 
 .my-login-page .card.fat {
