@@ -28,7 +28,7 @@ body {
 /* color interfaz*/
 .bg-primary,
 .btn-primary {
-  background-image: src="img/ESIME.jpg" !important;
+  background-color: #b6e40f !important;
 }
 /*/////////////////////////////////////////////////////*/
 /*colores del boton que sellecciona iniciar sesion*/
