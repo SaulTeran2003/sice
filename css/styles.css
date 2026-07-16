@@ -78,9 +78,8 @@ html,body {
 }
 /*/////////////////////////////////////////////////////////////*/
 .my-login-page .card {
-  border-radius: 15%;
-    box-shadow: 0 4px 8px rgba(0,0,0,.05);
-    border: 5px solid rgb(5, 128, 24);
+ 
+    box-shadow: 0 4px 8px rgba(40, 253, 3, 0.05);
 
     background-image: url("../img/FORMULARIO.jpg");
     background-size: cover;
