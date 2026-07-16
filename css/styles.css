@@ -29,6 +29,14 @@ body {
 .bg-primary,
 .btn-primary {
   background-color: #b6e40f !important;
+  /* Ruta de tu imagen */
+  background-image: url('ESIME.jpg') !important; 
+  /* Centra la imagen */
+  background-position: center !important; 
+  /* Ajusta la imagen al tamaño del contenedor */
+  background-size: cover !important; 
+  /* Evita que la imagen se repita */
+  background-repeat: no-repeat !important; 
 }
 /*/////////////////////////////////////////////////////*/
 /*colores del boton que sellecciona iniciar sesion*/
@@ -59,7 +67,7 @@ html,body {
   box-shadow: 0 4px 8px rgba(0,0,0,.05);/*sombra alrededor del logo*/
   position: relative;
   z-index: 1;
-  border: 5px solid blue;
+  /*border: 5px solid blue;*/
 }
 
 .my-login-page .brand img {
