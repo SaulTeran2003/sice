@@ -28,7 +28,7 @@ body {
 /* color interfaz*/
 .bg-primary,
 .btn-primary {
-  background-image: url('Parte de Enmedio.jpg'); 
+  background-image: #bfb9b9; 
 }
 /*/////////////////////////////////////////////////////*/
 /*colores del boton que sellecciona iniciar sesion*/
