@@ -2,27 +2,115 @@ body {
   background: #f1f1f1;
   height: 100vh;
 }
-
+/*//////////////////////////////////////////////////////////*/
+/*imagen encabezado*/
+#barraGobmx2 {
+   height: 250px;
+   background-image: url("../img/ENCABEZADO.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*color del texto de la parte superior encabezado gobierno*/
+#barraGobmx2 a{
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+   position: relative;
+    top: -99px;
+}
+.svg-inline--fa.fa-w-16 {
+  width: 1em;
+}
+/*////////////////////////////////////////////////////////////*/
+/*Fondo principal de la pagina */
+html,body {
+  margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/ESIME.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; /* opcional */
+}
+/*////////////////////////////////////////////////////////////*/
+/* Footer IPN */
+.piePagina {
+  position: relative;
+  height: 185px;
+  background-image: url("../img/GRISGOB2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .form {
   position: relative;
 }
-
-.form .fa-search {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  color: #9ca3af;
+/*//////////////////////////////////////////////////////////*/
+/*color del apartado gobierno info*/
+.main-footer .list-info {
+  background-color: #611232;
+   min-height: 340px;
 }
-
-.form-input {
-  height: 55px;
-  text-indent: 10px;
-  border-radius: 10px;
+/*logo del gobierno tamaño y posicionamiento*/
+.logo_footer {
+    max-width: 55%;
+    height: auto;
+    position: relative;
+    top: 40px;
+    left: 60px;
 }
-
-.form-input:focus {
-  border-color: #5a12365a;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #5a12366d;
+/* esta es con la imegen guinda pero sale muy pixeleda las letras
+.main-footer .list-info {
+    position: relative;
+    height: 340px;
+    background-image: url("../img/GUINDA.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}*/
+/*////////////////////////////////////////////////////////////*/
+/*color de la placa donde esta la pegatina de flores en el interfaz*/
+.footer-pleca {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    background-image: url("../img/FLORES.jpg");
+    background-size: auto 50px;
+    background-position: center;
+    background-repeat: repeat-x;
+}
+/*////////////////////////////////////////////////////////////*/
+/*color de las letras de la info de gobierno de la parte de abajo */
+.main-footer h5 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 12.5px;
+  margin-bottom: 12.5px;
+  font-family: inherit;
+  line-height: 1.1;
+}
+.main-footer .list-info a,
+.main-footer .list-info p{
+  color: #ffffff;
+  font-size: 12px;
+}
+.main-footer .list-info ul {
+  margin: 0 0 60px;
+  padding: 0;
+}
+.main-footer .list-info ul li {
+  list-style-type: none;
+  margin: 0 0 2px;
+  padding: 0;
+  line-height: 1.6;
+}
+.main-footer .list-info ul li a {
+  color: #f3eded;
+  text-decoration: underline;
+  font-size: 12px;
 }
 /*////////////////////////////////////////////////////////////////*/
 /* color interfaz*/
@@ -44,35 +132,10 @@ body {
 .mt-8{
   margin-top: 8rem;
 }
-
-html,body {
-  margin: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("../img/ESIME.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed; /* opcional */
-}
-/*//////////////////////////////////////////////////////////*/
-/* logo o bueno escudo*/
-.my-login-page .brand {
-  width: 200px;
-  height: auto;
-  overflow: hidden;
-  border-radius: 15%;
-  margin: 40px auto;
-  box-shadow: 0 4px 8px rgba(0,0,0,.05);/*sombra alrededor del logo*/
-  position: relative;
-  z-index: 1;
-  /*border: 5px solid blue;*/
-}
-
+/*aqui no quedamos el jueves 13 agosto*/
 .my-login-page .brand img {
   width: 100%;
 }
-
 .my-login-page .card-wrapper {
   width: 400px;
 }
@@ -147,80 +210,9 @@ html,body {
 .navbar {
   padding: 0;
 }
-/*//////////////////////////////////////////////////////////*/
-/*color de la barra de gobierno arriba*/
-#barraGobmx2 {
-   height: 250px;
-  background-image: url("../img/ENCABEZADO.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-#barraGobmx2 a{
-  color: #ffffff;
-  font-size: 16px;
-  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-   position: relative;
-    top: -99px;
-}
-.svg-inline--fa.fa-w-16 {
-  width: 1em;
-}
 
-/* Footer IPN */
-.piePagina {
-  position: relative;
-}
-.bg--grisOscuro, .ubicacion {
-  background: #333;
-  color: #fff;
-}
-.bg--grisOscuro .container {
-  padding-block: 35px;
-}
-/*//////////////////////////////////////////////////////////*/
-/*color del apartado gobierno info*/
-.main-footer .list-info {
-  background-color: #611232;
-  padding: 30px 0 70px;
-}
-/*color de las letras de la info de gobierno de la parte de abajo */
-.main-footer h5 {
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 300;
-  margin-top: 12.5px;
-  margin-bottom: 12.5px;
-  font-family: inherit;
-  line-height: 1.1;
-}
-.main-footer .list-info a,
-.main-footer .list-info p{
-  color: #ffffff;
-  font-size: 12px;
-}
-.main-footer .list-info ul {
-  margin: 0 0 60px;
-  padding: 0;
-}
-.main-footer .list-info ul li {
-  list-style-type: none;
-  margin: 0 0 2px;
-  padding: 0;
-  line-height: 1.6;
-}
-.main-footer .list-info ul li a {
-  color: #a50606;
-  text-decoration: underline;
-  font-size: 12px;
-}
-/*////////////////////////////////////////////////////////////*/
-/*color de la placa donde esta la pegatina de flores en el interfaz*/
-.footer-pleca {
-  background-color: #9bcd1d;
-  background-image: url(https://ipn.mx/assets/files/main/img/template/pleca.svg);
-  background-repeat: repeat-x;
-}
+
+
 
 #plantillas{
 
@@ -322,9 +314,46 @@ html,body {
   100% { transform: rotate(360deg); }
 }
 
-
-
-
-
-
 /*HOLA MUNDO*/
+/*////////////////////////////////////////////////////////////////*/
+/* esto es lo que emos eliminado en el codigo de prueba 
+.bg--grisOscuro, .ubicacion {
+  background: #333;
+  color: #fff;
+}
+.bg--grisOscuro .container {
+  padding-block: 35px;
+}*/
+/* logo o bueno escudo que estaba en el sicah*/
+/*.my-login-page .brand {
+  width: 200px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 15%;
+  margin: 40px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,.05);
+  position: relative;
+  z-index: 1;
+  border: 5px solid blue;
+}
+
+.form .fa-search {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #9ca3af;
+}
+
+.form-input {
+  height: 55px;
+  text-indent: 10px;
+  border-radius: 10px;
+}
+
+.form-input:focus {
+  border-color: #5a12365a;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #5a12366d;
+}
+*/
+
+
