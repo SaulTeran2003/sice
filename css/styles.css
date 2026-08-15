@@ -2,18 +2,18 @@ body {
   background: #f1f1f1;
   height: 100vh;
 }
-/*//////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
 /*imagen encabezado*/
 #barraGobmx2 {
    height: 250px;
-   background-image: url("../img/ENCABEZADO.jpg");
+  background-image: url("../img/ENCABEZADO.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-/*color del texto de la parte superior encabezado gobierno*/
+/*color del Texto de la parte superior encabezado gobierno*/
 #barraGobmx2 a{
-  color: #ffffff;
+  color: #ffff;
   font-size: 16px;
   font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
    position: relative;
@@ -53,7 +53,6 @@ html,body {
   background-color: #611232;
    min-height: 340px;
 }
-/*logo del gobierno tamaño y posicionamiento*/
 .logo_footer {
     max-width: 55%;
     height: auto;
@@ -61,7 +60,7 @@ html,body {
     top: 40px;
     left: 60px;
 }
-/* esta es con la imegen guinda pero sale muy pixeleda las letras
+/* esta es con la imegen pero sale muy pixeleda las letras
 .main-footer .list-info {
     position: relative;
     height: 340px;
@@ -82,6 +81,7 @@ html,body {
     background-repeat: repeat-x;
 }
 /*////////////////////////////////////////////////////////////*/
+
 /*color de las letras de la info de gobierno de la parte de abajo */
 .main-footer h5 {
   color: #ffffff;
@@ -119,7 +119,7 @@ html,body {
   background-image: #bfb9b9; 
 }
 /*/////////////////////////////////////////////////////*/
-/*colores del boton que sellecciona iniciar sesion*/
+/*colores del boton que selecciona iniciar sesion*/
 .btn-primary:is(:hover, :active, :focus) {
   background-color: #5a1236d3 !important;
   color: #0d0d0d !important;
@@ -132,10 +132,11 @@ html,body {
 .mt-8{
   margin-top: 8rem;
 }
-/*aqui no quedamos el jueves 13 agosto*/
+
 .my-login-page .brand img {
   width: 100%;
 }
+
 .my-login-page .card-wrapper {
   width: 400px;
 }
@@ -313,6 +314,8 @@ html,body {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+/*Verificar si sirve=*
 
 /*HOLA MUNDO*/
 /*////////////////////////////////////////////////////////////////*/
