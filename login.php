@@ -58,8 +58,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <div class="container h-100">
     <div class="row justify-content-md-center h-100">
       <div class="card-wrapper">
-        <div class="brand">
-        </div>
         <div class="card fat">
           <div class="card-body">
             <h4 class="card-title text-center"></h4>

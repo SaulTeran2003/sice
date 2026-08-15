@@ -9,7 +9,7 @@
       <div class="row">
         <div class="col-sm-3">
           <img data-v-9e928f9a="" src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg" href="/"
-               alt="logo gobierno de mÃƒÂ©xico" class="logo_footer" style="max-width: 90%;">
+               alt="logo gobierno de mÃƒÂ©xico" class="logo_footer">
         </div>
         <div class="col-sm-3">
           <h5>Enlaces</h5>
@@ -127,8 +127,6 @@
   <div class="container-fluid footer-pleca">
     <div class="row">
       <div class="col">
-        <br>
-        <br>
       </div>
     </div>
   </div>
