@@ -50,8 +50,10 @@ html,body {
 /*//////////////////////////////////////////////////////////*/
 /*color del apartado gobierno info*/
 .main-footer .list-info {
-  background-color: #611232;
-   min-height: 340px;
+    background-color: #611232;
+    height: 340px;
+    padding: 25px 0 30px;
+    box-sizing: border-box;
 }
 .logo_footer {
     max-width: 55%;
@@ -81,16 +83,15 @@ html,body {
     background-repeat: repeat-x;
 }
 /*////////////////////////////////////////////////////////////*/
-
 /*color de las letras de la info de gobierno de la parte de abajo */
-.main-footer h5 {
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 300;
-  margin-top: 12.5px;
-  margin-bottom: 12.5px;
-  font-family: inherit;
-  line-height: 1.1;
+.main-footer h5 { /* letras en negritas por ejemplo Enlaces:*/
+    color: #ffffff;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+}
+.main-footer .list-info {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .main-footer .list-info a,
 .main-footer .list-info p{
@@ -107,10 +108,11 @@ html,body {
   padding: 0;
   line-height: 1.6;
 }
-.main-footer .list-info ul li a {
+.main-footer .list-info ul li a { /* el sub-rayado*/
   color: #f3eded;
-  text-decoration: underline;
-  font-size: 12px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  font-size: 13px;
 }
 /*////////////////////////////////////////////////////////////////*/
 /* color interfaz*/
@@ -314,6 +316,7 @@ html,body {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
 
 /*Verificar si sirve=*
 
