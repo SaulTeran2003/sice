@@ -38,7 +38,7 @@ html,body {
 /* Footer IPN */
 .piePagina {
   position: relative;
-  height: 185px;
+  height: 190px;
   background-image: url("../img/GRISGOB2.jpg");
     background-size: cover;
     background-position: center;
@@ -51,7 +51,7 @@ html,body {
 /*color del apartado gobierno info*/
 .main-footer .list-info {
     background-color: #611232;
-    height: 340px;
+    height: 320px;
     padding: 25px 0 30px;
     box-sizing: border-box;
 }
@@ -90,6 +90,14 @@ html,body {
     font-size: 19px;
     font-weight: 700;
 }
+.main-footer h5.enlace-denuncia a {
+    color: #ffffff !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px !important;
+    font-weight: 700 !important;
+    line-height: 1.25 !important;
+    text-decoration: underline !important;
+}
 .main-footer .list-info {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -112,7 +120,17 @@ html,body {
   color: #f3eded;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 16px;
+   line-height: 2.5;
+}
+/* es el apartado de LEER MAS: */
+.main-footer p {
+    font-size: 16px !important;
+}
+.main-footer p a {
+    color: #ffffff;
+    font-size: 16px !important;
+    text-decoration: underline!important;
 }
 /*////////////////////////////////////////////////////////////////*/
 /* color interfaz*/

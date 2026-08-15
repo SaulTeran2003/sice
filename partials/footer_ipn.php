@@ -20,89 +20,65 @@
               </a>
             </li>
             <li>
-              <a href="https://www.gob.mx/publicaciones" target="_blank" rel="noopener"
-                 title="Enlace abre en ventana nueva">
-                Publicaciones Oficiales
-              </a>
-            </li>
-            <li>
               <a href="http://www.ordenjuridico.gob.mx" target="_blank" rel="noopener"
                  title="Enlace abre en ventana nueva">
-                Marco Jurídico
+                Marco Jurídico<br>
               </a>
             </li>
             <li>
               <a href="https://consultapublicamx.inai.org.mx/vut-web/" target="_blank" rel="noopener"
                  title="Enlace abre en ventana nueva">
-                Plataforma Nacional de Transparencia
+                Plataforma Nacional de <br> Transparencia
+              </a>
+            </li>
+            <li>
+              <a href="https://transparencia.gob.mx/home.html" target="_blank" rel="noopener"
+                 title="Enlace abre en ventana nueva">
+                Transparencia para el pueblo<br>
               </a>
             </li>
             <li>
               <a href="https://alertadores.funcionpublica.gob.mx/" target="_blank" rel="noopener"
                  title="Enlace abre en ventana nueva">
-                Alerta
+                Alerta<br>
               </a>
             </li>
-            <li>
-              <a href="https://sidec.funcionpublica.gob.mx" target="_blank" rel="noopener"
-                 title="Enlace abre en ventana nueva">
-                Denuncia
-              </a>
-            </li>
+            
           </ul>
         </div>
         <div class="col-sm-3">
           <h5>¿Qué es gob.mx?</h5>
           <p>
             Es el portal único de trámites, información y participación ciudadana.
-            <br>
             <a href="https://www.gob.mx/que-es-gobmx">
               Leer más
             </a>
           </p>
           <ul>
             <li><a href="https://datos.gob.mx">
-                Portal de datos abiertos
+                Portal de datos abiertos<br>
               </a>
             </li>
             <li>
               <a href="https://www.gob.mx/accesibilidad">
-                Declaración de accesibilidad
+                Declaración de accesibilidad<br>
               </a>
             </li>
-            <li>
-              <a href="https://www.gob.mx/privacidadintegral">
-                Aviso de privacidad integral
-              </a>
-            </li>
-            <li>
-              <a href="https://www.gob.mx/privacidadsimplificado">
-                Aviso de privacidad simplificado
-              </a>
-            </li>
+           
+           
             <li>
               <a href="https://www.gob.mx/terminos">
-                Términos y Condiciones
+                Términos y Condiciones<br>
               </a>
-            </li>
-            <li>
-              <a href="https://www.gob.mx/terminos#medidas-seguridad-informacion">
-                Política de seguridad
-              </a>
-            </li>
-            <li>
-              <a href="https://www.gob.mx/sitemap">
-                Mapa de sitio
-              </a>
-            </li>
           </ul>
         </div>
         <div class="col-sm-3">
-          <h5>
-            <a href="https://www.gob.mx/tramites/ficha/presentacion-de-quejas-y-denuncias-en-la-sfp/SFP54">
-              Denuncia contra servidores públicos
-            </a>
-          </h5>
+          <h5 class="enlace-denuncia mb-4">
+        <a href="https://www.gob.mx/tramites/ficha/presentacion-de-quejas-y-denuncias-en-la-sfp/SFP54">
+        Denuncia contra servidores<br>
+        públicos
+       </a>
+      </h5>
           <h5>
             Síguenos en
           </h5>
@@ -119,7 +95,27 @@
                 <img alt="Twitter" src="https://framework-gb.cdn.gob.mx/landing/img/twitter.png">
               </a>
             </li>
+            <li>
+              <a target="_blank" rel="noopener" title="Enlace abre en ventana nueva"
+                 href="https://www.instagram.com/gobmexico/">
+                <img alt="Instagram" src="img/Instagram.png" width="30" height="30">
+              </a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener" title="Enlace abre en ventana nueva"
+                 href="https://www.youtube.com/@gobiernodemexico">
+                <img alt="Youtube" src="img/youtube.png" width="30" height="30">
+              </a>
+            </li>
           </ul>
+          <div class="d-flex align-items-center gap-3 mt-0 text-white">
+          <span class="fs-3">✻</span>
+          <h5 class="mb-0 fw-bold fs-2 text-white">079</h5>
+          <div class="text-white lh-sm" style="font-size: 0.85rem;">
+          Comunícate, estamos<br>para ayudarte
+          </div>
+</div>
+</div>
         </div>
       </div>
     </div>
