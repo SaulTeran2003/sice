@@ -7,22 +7,14 @@
         <img src="<?php echo $path; ?>img/logob.svg" height="29" alt="Página de inicio, Gobierno de México">
       </a>
       <div class="text-rigth barraGobmx-enlaces2 d-flex justify-content-between gap-3">
-        <a href="https://www.gob.mx/curp/" title="Consulta tu CURP" class="nav-link">
+        <a href="https://www.gob.mx/curp/" title="CURP" class="nav-link">
           Consulta tu CURP
-        </a>
-        <a href="https://www.gob.mx/index.xhtml" title="Informacion sobre COVID-19" class="nav-link">
-          Tramites
         </a>
         <a href="https://www.gob.mx/tramites" title="Trámites" class="nav-link">
           Trámites
         </a>
         <a href="https://www.gob.mx/gobierno" title="Gobierno" class="nav-link">
           Gobierno
-        </a>
-        <a href="https://www.gob.mx/segob/en" title="English" class="nav-link">
-          English
-        </a>
-
         <a href="https://www.gob.mx/busqueda">
           <span class="sr-only nav-link">Búsqueda</span>
           <svg class="svg-inline--fa fa-search fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="search"
