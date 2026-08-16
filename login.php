@@ -70,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SICE | </title>
-  <link rel="icon" href="img/SICEICO2.ico" type="image/x-icon">
+  <link rel="icon" href="img/ICO.ico" type="image/x-icon">
   <link href="./css/bootstrap.min.css" rel="stylesheet" />
   <link href="./css/styles.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
