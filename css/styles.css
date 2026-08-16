@@ -132,14 +132,89 @@ html,body {
     font-size: 16px !important;
     text-decoration: underline!important;
 }
+/* PARA QUE NO SALGA EN AZUL Y SEA BLANCO EN SU LUGAR*/
+.bg-primary {
+  background-color: #ffffff !important; 
+}
 /*////////////////////////////////////////////////////////////////*/
-/* color interfaz*/
-.bg-primary,
+/* para las letras SISTEMA INTEGRAL*/
+.login-card-footer {
+  font-size: 0.8rem;
+  background-color: #f3f3f3 !important;
+  text-align: center; /* Centra el texto por completo */
+  padding-left: 30px; 
+}
+/*////////////////////////////////////////////////////////////////*/
+/* Estilos para la vista de Login O TARJETA DONDE PONEN EL CORREO */
+.login-wrapper {
+  width: 440px;
+}
+
+.login-card {
+  border-radius: 0;
+}
+
+.login-logo {
+  height: 55px;
+  width: auto;
+  margin-left: -15px;
+}
+
+.login-title {
+  color: #1b1b1b;
+  font-size: 1.5rem;
+}
+
+.login-input {
+  border-bottom: 2px solid #0067b8 !important;
+  font-size: 0.95rem;
+}
+
+.login-link {
+  color: #0067b8;
+  font-size: 0.85rem;
+}
+
+.login-btn {
+  background-color: #0067b8;
+  font-size: 0.9rem;
+  min-width: 108px;
+}
+
+.login-btn:hover {
+  background-color: #005a9e;
+}
+
+.login-email-display {
+  font-size: 0.9rem;
+}
+
+.login-back-icon {
+  cursor: pointer;
+}
+
+.login-card-footer {
+  font-size: 0.8rem;
+  background-color: #f3f3f3 !important;
+}
+
+.login-alert {
+  font-size: 0.85rem;
+}
+
+.login-general-footer {
+  font-size: 0.85rem;
+}
+
+/*////////////////////////////////////////////////////////////////*/
+/* lo que tenia el programa original seguir investigando que hace*/
+/*
 .btn-primary {
   background-image: #bfb9b9; 
-}
+}*/
 /*/////////////////////////////////////////////////////*/
 /*colores del boton que selecciona iniciar sesion*/
+/*
 .btn-primary:is(:hover, :active, :focus) {
   background-color: #5a1236d3 !important;
   color: #0d0d0d !important;
@@ -160,7 +235,7 @@ html,body {
 .my-login-page .card-wrapper {
   width: 400px;
 }
-/*/////////////////////////////////////////////////////////////*/
+
 .my-login-page .card {
  
     box-shadow: 0 4px 8px rgba(40, 253, 3, 0.05);
@@ -189,9 +264,10 @@ html,body {
 
 .my-login-page .btn.btn-block {
   padding: 12px 10px;
-}
-/*//////////////////////////////////////////////////*/
+}*
+
 /*color del copyright*/
+/*
 .my-login-page .footer {
   margin: 40px 0;
   color: #161a1d;
@@ -226,8 +302,9 @@ html,body {
 .vh-50 {
   height: 50vh!important;
 }
-
+*/
 /* Header IPN */
+/*
 .navbar {
   padding: 0;
 }
@@ -334,6 +411,7 @@ html,body {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+*/
 
 
 /*Verificar si sirve=*
