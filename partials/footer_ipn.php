@@ -8,8 +8,8 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-3">
-          <img data-v-9e928f9a="" src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg" href="/"
-               alt="logo gobierno de mÃƒÂ©xico" class="logo_footer">
+          <img alt="GOBIERNO" src="img/GOBIERNO.png" href="/"
+           class="logo_footer">
         </div>
         <div class="col-sm-3">
           <h5>Enlaces</h5>
@@ -28,7 +28,7 @@
             <li>
               <a href="https://consultapublicamx.inai.org.mx/vut-web/" target="_blank" rel="noopener"
                  title="Enlace abre en ventana nueva">
-                Plataforma Nacional de <br> Transparencia
+                Plataforma Nacional de Transparencia
               </a>
             </li>
             <li>
@@ -48,6 +48,7 @@
         </div>
         <div class="col-sm-3">
           <h5>¿Qué es gob.mx?</h5>
+          <br>
           <p>
             Es el portal único de trámites, información y participación ciudadana.
             <a href="https://www.gob.mx/que-es-gobmx">
@@ -79,6 +80,7 @@
         públicos
        </a>
       </h5>
+      <br>
           <h5>
             Síguenos en
           </h5>
@@ -109,7 +111,7 @@
             </li>
           </ul>
           <div class="d-flex align-items-center gap-3 mt-0 text-white">
-          <span class="fs-3">✻</span>
+          <img src="img/simbolo.png" alt="" class="icono-079">
           <h5 class="mb-0 fw-bold fs-2 text-white">079</h5>
           <div class="text-white lh-sm" style="font-size: 0.85rem;">
           Comunícate, estamos<br>para ayudarte

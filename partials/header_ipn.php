@@ -1,5 +1,13 @@
-<?php $path = isset($volver) ? '../' : ''; ?>
+<!-- Aquí se encuentra toda la informacion del header que es la parte de la barra de gobierno
+guinda donde se encontrara tramites gobierno que nos mandara a su respecticva pagina.
+ También se encontrara la informacion de la barra de gobierno donde estara calendario, tranparencia, 
+ directorio, correo, etc.
+ ENcontraran tambien para cambier el tamaño de las letras, y simbolos.
+ Estara el apartado del menu gris para que se pueda abrir los respectivos usuarios de la pagina.-->
 
+ <?php $path = isset($volver) ? '../' : ''; ?>
+
+<!--///////////////////////////////////Barra guinda gobierno/////////////////////////// -->
 <div>
   <nav class="navbar m-0" role="navigation" id="barraGobmx2">
     <div class="container align-content-center">
@@ -7,9 +15,7 @@
         <img src="<?php echo $path; ?>img/logob.svg" height="29" alt="Página de inicio, Gobierno de México">
       </a>
       <div class="text-rigth barraGobmx-enlaces2 d-flex justify-content-between gap-3">
-        <a href="https://www.gob.mx/curp/" title="CURP" class="nav-link">
-          Consulta tu CURP
-        </a>
+        
         <a href="https://www.gob.mx/tramites" title="Trámites" class="nav-link">
           Trámites
         </a>
@@ -27,3 +33,20 @@
     </div>
   </nav>
 </div>
+ <!-- /////////////////////////////Barra blanca info politecnico ////////////////////////// -->
+<div class="menu-superior  py-2">
+  <div class="container">
+    <nav class="nav justify-content-end gap-3 text-uppercase" style="font-size: 13px;">
+      <a href="https://www.ipn.mx/directorio-telefonico.html" class="text-dark text-decoration-none">Directorio</a>
+      <span>|</span>
+      <a href="https://www.ipn.mx/correo-electronico.html" class="text-dark text-decoration-none">Correo</a>
+      <span>|</span>
+      <a href="https://www.ipn.mx/calendario-academico.html" class="text-dark text-decoration-none">Calendario</a>
+      <span>|</span>
+      <a href="https://www.ipn.mx/transparencia/" class="text-dark text-decoration-none">Transparencia</a>
+      <span>|</span>
+      <a href="https://www.ipn.mx/proteccion-datos-personales/" class="text-dark text-decoration-none">Protección de Datos</a>
+    </nav>
+  </div>
+</div>
+<!-- ////////////////Barra gris para el munu para abrir usuario correspondiente /////////////////////-->

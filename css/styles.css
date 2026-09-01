@@ -1,8 +1,4 @@
-body {
-  background: #f1f1f1;
-  height: 100vh;
-}
-/*////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////HEADER///////////////////////////////////////////////////*/
 /*imagen encabezado*/
 #barraGobmx2 {
    height: 250px;
@@ -10,6 +6,18 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+/*INFORMACION EN LA PARTE SUPERIOR barra blanca EJEMPLO: CALENDARIO, DIRECTORIO*/
+.menu-superior {
+    position: relative;
+    top: -200px;
+    left:57px;
+    z-index: 10;
+}
+/*INFORMACION EN LA PARTE SUPERIOR para que las letras esten mas juntas*/
+.menu-superior nav { 
+    gap: 8px !important;
+     font-weight:400;
 }
 /*color del Texto de la parte superior encabezado gobierno*/
 #barraGobmx2 a{
@@ -23,6 +31,11 @@ body {
   width: 1em;
 }
 /*////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////BODY////////////////////////////////////////////////*/
+body {
+  background: #f1f1f1;
+  height: 100vh;
+}
 /*Fondo principal de la pagina */
 html,body {
   margin: 0;
@@ -33,111 +46,14 @@ html,body {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed; /* opcional */
-}
-/*////////////////////////////////////////////////////////////*/
-/* Footer IPN */
-.piePagina {
-  position: relative;
-  height: 190px;
-  background-image: url("../img/GRISGOB2.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.form {
-  position: relative;
-}
-/*//////////////////////////////////////////////////////////*/
-/*color del apartado gobierno info*/
-.main-footer .list-info {
-    background-color: #611232;
-    height: 320px;
-    padding: 25px 0 30px;
-    box-sizing: border-box;
-}
-.logo_footer {
-    max-width: 55%;
-    height: auto;
-    position: relative;
-    top: 40px;
-    left: 60px;
-}
-/* esta es con la imegen pero sale muy pixeleda las letras
-.main-footer .list-info {
-    position: relative;
-    height: 340px;
-    background-image: url("../img/GUINDA.jpg");
-    background-size: 100% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-}*/
-/*////////////////////////////////////////////////////////////*/
-/*color de la placa donde esta la pegatina de flores en el interfaz*/
-.footer-pleca {
-    height: 50px;
-    padding: 0;
-    margin: 0;
-    background-image: url("../img/FLORES.jpg");
-    background-size: auto 50px;
-    background-position: center;
-    background-repeat: repeat-x;
-}
-/*////////////////////////////////////////////////////////////*/
-/*color de las letras de la info de gobierno de la parte de abajo */
-.main-footer h5 { /* letras en negritas por ejemplo Enlaces:*/
-    color: #ffffff;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 19px;
-    font-weight: 700;
-}
-.main-footer h5.enlace-denuncia a {
-    color: #ffffff !important;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 17px !important;
-    font-weight: 700 !important;
-    line-height: 1.25 !important;
-    text-decoration: underline !important;
-}
-.main-footer .list-info {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.main-footer .list-info a,
-.main-footer .list-info p{
-  color: #ffffff;
-  font-size: 12px;
-}
-.main-footer .list-info ul {
-  margin: 0 0 60px;
-  padding: 0;
-}
-.main-footer .list-info ul li {
-  list-style-type: none;
-  margin: 0 0 2px;
-  padding: 0;
-  line-height: 1.6;
-}
-.main-footer .list-info ul li a { /* el sub-rayado*/
-  color: #f3eded;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-decoration: none;
-  font-size: 16px;
-   line-height: 2.5;
-}
-/* es el apartado de LEER MAS: */
-.main-footer p {
-    font-size: 16px !important;
-}
-.main-footer p a {
-    color: #ffffff;
-    font-size: 16px !important;
-    text-decoration: underline!important;
+    
 }
 /* PARA QUE NO SALGA EN AZUL Y SEA BLANCO EN SU LUGAR*/
 .bg-primary {
   background-color: #ffffff !important; 
 }
 /*////////////////////////////////////////////////////////////////*/
-/* para las letras SISTEMA INTEGRAL*/
+/* para las letras SISTEMA INTEGRAL de la card*/
 .login-card-footer {
   font-size: 0.8rem;
   background-color: #f3f3f3 !important;
@@ -205,6 +121,117 @@ html,body {
 .login-general-footer {
   font-size: 0.85rem;
 }
+/*simbolo 079 */
+.icono-079 {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+/*////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////FOOTER////////////////////////////////////////////////*/
+.piePagina {
+  position: relative;
+  height: 190px;
+  background-image: url("../img/GRISGOB2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.form {
+  position: relative;
+}
+/*//////////////////////////////////////////////////////////*/
+/*color del apartado gobierno info*/
+.main-footer .list-info {
+    background-color: #611232;
+    height: 320px;
+    padding: 25px 0 30px;
+    box-sizing: border-box;
+}
+.logo_footer {
+    max-width: 55%;
+    height: auto;
+    position: relative;
+    top: 40px;
+    left:23px;
+}
+/* esta es con la imegen pero sale muy pixeleda las letras
+.main-footer .list-info {
+    position: relative;
+    height: 340px;
+    background-image: url("../img/GUINDA.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}*/
+/*////////////////////////////////////////////////////////////*/
+/*color de la placa donde esta la pegatina de flores en el interfaz*/
+.footer-pleca {
+    height: 44px;
+    padding: 0;
+    margin: 0;
+    background-image: url("../img/FLORES.jpg");
+    background-size: auto 44px;
+    background-position: center;
+    background-repeat: repeat-x;
+}
+/*////////////////////////////////////////////////////////////*/
+/*color de las letras de la info de gobierno de la parte de abajo */
+.main-footer h5 { /* letras en negritas por ejemplo Enlaces:*/
+    color: #ffffff;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.main-footer h5.enlace-denuncia a {
+    color: #ffffff !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px !important;
+    font-weight: 700 !important;
+    line-height: 1.25 !important;
+    text-decoration: underline !important;
+}
+.main-footer .list-info {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.main-footer .list-info a,
+.main-footer .list-info p{
+  color: #ffffff;
+  font-size: 12px;
+}
+.main-footer .list-info ul {
+  margin: 0 0 60px;
+  padding: 0;
+}
+.main-footer .list-info ul li {
+  list-style-type: none;
+  margin: 0 0 2px;
+  padding: 0;
+  line-height: 1.6;
+}
+.main-footer .list-info ul li a {
+    color: #ffffff;
+    font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight:700;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 2.6;
+}
+
+/* es el apartado de LEER MAS: */
+.main-footer p {
+    font-size: 15px !important;
+    font-weight:700 !important;
+    font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+}
+.main-footer p a {
+    color: #ffffff;
+    font-size: 15px !important;
+    text-decoration: underline!important;
+    font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight:700 !important;
+}
+
 
 /*////////////////////////////////////////////////////////////////*/
 /* lo que tenia el programa original seguir investigando que hace*/
