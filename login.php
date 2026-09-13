@@ -1,10 +1,44 @@
 <?php
 session_start();
+require_once __DIR__ . '/utils/functions.php';
+
+// Conserva los marcadores antiguos, pero deja index.php como única entrada visible.
+if (realpath($_SERVER['SCRIPT_FILENAME'] ?? '') === __FILE__) {
+  header('Location: /sicexd/');
+  exit;
+}
+
+// Si ya existe una sesión, la portada debe abrir el menú principal.
+if (!empty($_SESSION['user'])) {
+  header('Location: /sicexd/home.php');
+  exit;
+}
+
 $alert = null;
 $step = 1; // Paso 1 por defecto (pedir correo)
 $email = '';
+$action = $_POST['action'] ?? '';
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && $action === 'preview') {
+  if (preview_mode_enabled()) {
+    session_regenerate_id(true);
+    $_SESSION['user'] = [
+      'NOMBRE' => 'Usuario de vista previa',
+      'CORREO' => 'vista-previa@localhost',
+      'TIPO_USUARIO' => '1',
+      'ESTATUS' => '1',
+      'RESET' => '0',
+      'SICE_PREVIEW' => true,
+    ];
+
+    header('Location: /sicexd/home.php');
+    exit;
+  }
+
+  $alert = 'La vista previa local no está habilitada.';
+}
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && $action !== 'preview') {
   require_once 'conexion.php';
   $connection = Conectarse();
  ////////////////INSERTAR CORREO DEL USUARIO /////////////////////
@@ -49,10 +83,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       if ($is_auth) {
         $_SESSION['user'] = $result[0];
         if ($result[0]['RESET'] === '0') {
-          header('Location: /sicah-web/index.php');
+          header('Location: /sicexd/home.php');
           exit;
         } else {
-          header('Location: /sicah-web/recuperar_contrasena.php');
+          header('Location: /sicexd/recuperar_contrasena.php');
           exit;
         }
       } else {
@@ -101,6 +135,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <!-- TÍTULO DE LA TARJETA DE INICIO DE SESIÓN -->
         <h2 class="fw-normal mb-4 login-title">Iniciar sesión</h2>
+
+        <?php if (preview_mode_enabled()) : ?>
+          <div class="alert alert-info rounded-0 mb-4" role="alert">
+            <strong>Vista previa local</strong><br>
+            Explora el sistema sin conectarte a la base de datos.
+          </div>
+          <form method="POST" class="mb-4">
+            <input type="hidden" name="action" value="preview">
+            <button type="submit" class="btn btn-outline-primary w-100 rounded-0">
+              Entrar sin base de datos
+            </button>
+          </form>
+          <div class="text-center text-muted mb-4">o inicia sesión con tus credenciales</div>
+        <?php endif; ?>
 
         <?php if ($step === 1) : ?>
           <!-- ////////////////PASO 1: INGRESAR CORREO /////////////////////-->

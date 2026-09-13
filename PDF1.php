@@ -77,7 +77,7 @@ class pdf extends FPDF
 
       $this->SetFont('Helvetica','B',12);
 		$this->SetY(-15);
-		$this->Write(5,'SICAH. Derechos Reservados. ');
+		$this->Write(5,'SICE. Derechos Reservados. ');
 		$this->SetY(-15);
 		$this->SetX(153);
       $this->Write(5 , "CDMX a");
@@ -166,7 +166,7 @@ if (file_exists($fpdf->foto)) {
    $fpdf->fotoPDF= $fpdf->foto;
  }
  $fpdf->Image( $fpdf->fotoPDF,20,60,30,30,'jpg');
-$fpdf->Image('SICAH_marca_agua.png',10,50,200,200,'png');
+$fpdf->Image(__DIR__ . '/consultas/fpdf/SICAH_marca_agua.png',10,50,200,200,'png');
 
 //Linea horizonrtal sup
 $fpdf->SetDrawColor(128,0,64);

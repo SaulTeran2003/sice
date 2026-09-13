@@ -41,7 +41,7 @@
       $mailContent = '
         <html lang="es">
           <p>Hola <strong>' . $this->name . '</strong>, has solicitado restablecer tu contraseña,para hacerlo sigue el siguiente enlace:</p>
-          <p><a href="http://10.7.31.222:8080/sicah-web/restablecer_contrasena.php?token=' . $this->token . '">Restablece tu contraseña</a></p>
+          <p><a href="http://10.7.31.222:8080/sicexd/restablecer_contrasena.php?token=' . $this->token . '">Restablece tu contraseña</a></p>
           <p>Si no has solicitado este cambio, puedes ignorar este mensaje.</p>
         </html>
       ';

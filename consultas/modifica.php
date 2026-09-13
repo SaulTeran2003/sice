@@ -9,7 +9,7 @@
 	$tipo_usuario=$_SESSION['user']['TIPO_USUARIO'];;
 	$result = $_SESSION['resultm']; 
     $_SESSION['resultmod']=$_SESSION['resultm'];
-	if (!$result) header('Location: /sicah-web/consulta_personal.php');
+	if (!$result) header('Location: /sicexd/consulta_personal.php');
 	$_SESSION['resultm'] = null;
 	$volver = true;
 	$_FILES["Foto"]='';
@@ -22,8 +22,8 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>SICAH | CURP</title>
-	<link rel="icon" href="logoSICAH.ico" type="image/x-icon">
+	<title>SICE | CURP</title>
+	<link rel="icon" href="../img/logoSICE.png" type="image/png">
 	<link href="../css/bootstrap.min.css" rel="stylesheet"/>
 	<link href="../css/styles.css" rel="stylesheet"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>

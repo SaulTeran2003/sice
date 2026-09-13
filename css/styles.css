@@ -1,3 +1,4 @@
+/*////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////HEADER///////////////////////////////////////////////////*/
 /*imagen encabezado*/
 #barraGobmx2 {
@@ -8,16 +9,16 @@
     background-repeat: no-repeat;
 }
 /*INFORMACION EN LA PARTE SUPERIOR barra blanca EJEMPLO: CALENDARIO, DIRECTORIO*/
-.menu-superior {
-    position: relative;
-    top: -200px;
-    left:57px;
+.menu-superior {/*menu de directorio */
+    position: absolute;
+    top: 53px; /* mover hacia arriba*/
+    right: 0;
+    width: 100%;
     z-index: 10;
 }
-/*INFORMACION EN LA PARTE SUPERIOR para que las letras esten mas juntas*/
-.menu-superior nav { 
-    gap: 8px !important;
-     font-weight:400;
+.menu-superior nav {
+    gap: 5px !important;/*juntar las letras*/
+    transform: translateX(50px);/* mover a la derecha*/
 }
 /*color del Texto de la parte superior encabezado gobierno*/
 #barraGobmx2 a{
@@ -233,7 +234,38 @@ html,body {
 }
 
 
+
 /*////////////////////////////////////////////////////////////////*/
+/*menu gris para los apartados de los usuarios */
+/*coloca barra gris en la plataforma*/
+/*
+.menu-principal {
+    background-color: #3f3f3f;
+    width: 100%;
+    height: 58px;
+}*/
+/* coloca las opciones administracion, docentes*/
+/*.menu-principal ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}*/
+/*para darle formato a las letras */
+/*.menu-principal a {
+    display: block;
+    padding: 18px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}*/
+/*para que cambie al pasar el mouse*/
+/*.menu-principal a:hover {
+    background-color: #750946;
+}
+*/
+
 /* lo que tenia el programa original seguir investigando que hace*/
 /*
 .btn-primary {
@@ -441,48 +473,6 @@ html,body {
 */
 
 
+
+
 /*Verificar si sirve=*
-
-/*HOLA MUNDO*/
-/*////////////////////////////////////////////////////////////////*/
-/* esto es lo que emos eliminado en el codigo de prueba 
-.bg--grisOscuro, .ubicacion {
-  background: #333;
-  color: #fff;
-}
-.bg--grisOscuro .container {
-  padding-block: 35px;
-}*/
-/* logo o bueno escudo que estaba en el sicah*/
-/*.my-login-page .brand {
-  width: 200px;
-  height: auto;
-  overflow: hidden;
-  border-radius: 15%;
-  margin: 40px auto;
-  box-shadow: 0 4px 8px rgba(0,0,0,.05);
-  position: relative;
-  z-index: 1;
-  border: 5px solid blue;
-}
-
-.form .fa-search {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  color: #9ca3af;
-}
-
-.form-input {
-  height: 55px;
-  text-indent: 10px;
-  border-radius: 10px;
-}
-
-.form-input:focus {
-  border-color: #5a12365a;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #5a12366d;
-}
-*/
-
-

@@ -53,9 +53,28 @@
     session_start();
 
     if (empty($_SESSION['user'])) {
-      header('Location: /sicah-web/login.php');
+      header('Location: /sicexd/');
       exit();
     }
+  }
+
+  function preview_mode_enabled(): bool
+  {
+    static $enabled = null;
+
+    if ($enabled !== null) return $enabled;
+
+    $remoteAddress = $_SERVER['REMOTE_ADDR'] ?? '';
+    $isLocalRequest = in_array($remoteAddress, ['127.0.0.1', '::1', '::ffff:127.0.0.1'], true);
+    $previewConfig = __DIR__ . '/../preview.local.php';
+
+    if (!$isLocalRequest || !file_exists($previewConfig)) {
+      $enabled = false;
+      return $enabled;
+    }
+
+    $enabled = (require $previewConfig) === true;
+    return $enabled;
   }
 
   function removeZero($cleanZero): string
@@ -69,7 +88,7 @@
   }
   function can_see_modifica(): void{
     if($_SESSION["user"]["TIPO_USUARIO"]=="4"){
-      header('Location:/sicha-web/index.php');
+      header('Location: /sicexd/home.php');
       exit();
     }
   }

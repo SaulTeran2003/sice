@@ -5,13 +5,13 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SICE | Menú de incidencias</title>
+  <title>SICE | Menú principal</title>
   <link rel="icon" href="img/logoSICE.png" type="image/png">
   <link href="./css/bootstrap.min.css" rel="stylesheet" />
   <link href="./css/styles.css" rel="stylesheet" />
@@ -24,45 +24,38 @@
 <?php include_once './partials/header.php'; ?>
 
 <?php
-  $tipo_usuario='';
-  $_SESSION['user']['TIPO_USUARIO'];
-  $tipo_usuario=$_SESSION['user']['TIPO_USUARIO'];;
-  if(!empty($tipo_usuario)){
-//     echo '<table border="0" width="100%">';
-// echo'</br>';
-// echo'</br>';
-// echo '<td align="center" colspan="4">';
-//     echo'<strong><h2>Seleccione una opción</h2></strong> ';
-// 	echo'</td>';
-//     echo'</table>';
-// echo'</br>';
-// echo'</br>';
+  $tipo_usuario = $_SESSION['user']['TIPO_USUARIO'] ?? '';
+  if (!empty($tipo_usuario)) {
 ?>
-
 <div class="col-md-auto text-center m-4">
-        <h1>Incidencias</h1>
-    </div>
+  <h1>SICE</h1>
+  <p>Sistema Integral de Comunicaciones y Electrónica</p>
+</div>
 <div class="row justify-content-around align-items-start vh-60">
   <div class="card" style="width: 18rem; height: 410px" align="center">
-    <img src="img/incidencias.png" class="card-img-top" style="width: 400; height: 240px;"/>
+    <img src="img/ConsultaCurp.jpg" class="card-img-top" style="width: 400; height: 250;"/>
     <div class="card-body">
-      <h5 class="card-title"></h5>
-      <p class="card-text">Agrega una Incidencia a personal docente o de PAAE</p><br>
-      <a href="/sicexd/IncidenciasAutocompletar.php" class="btn btn-primary">Agregar</a>
+      <h5 class="card-title">Consulta Datos Personales</h5>
+      <p class="card-text">Consulta de datos personales del personal de la Esime Zacatenco a través del CURP.</p>
+      <a href="/sicexd/consulta_personal.php" class="btn btn-primary">Consulta</a>
     </div>
   </div>
   <div class="card" style="width: 18rem; height: 410px" align="center">
-  <img src="img/logoSICE.png" class="card-img-top" style="width: 400; height: 200px;" alt="SICE"/>
+    <img src="img/ConsultaInegi.jpg" class="card-img-top" style="width: 500; height: 200px;"/>
     <div class="card-body">
-      <h5 class="card-title">Consulta de Incidencia</h5>
-      <p class="card-text">Consulta todas las incidencias que has tenido a lo largo de tu tiempo en el IPN</p><br>
-      <a href="/sicexd/incidenciasDocentes.php" class="btn btn-primary">Consultar</a>
+      <br>
+      <h5 class="card-title">Consulta INEGI</h5><br>
+      <p class="card-text">Consulta de información estadística del personal de la Esime Zacatenco.</p>
+      <a href="/sicexd/inegi.php" class="btn btn-primary">Consulta</a>
     </div>
   </div>
 </div>
+
 <br><br>
 <?php
-     }else{include('login_fail.php');}
+  } else {
+    include('login_fail.php');
+  }
 ?>
 
 <?php include_once './partials/footer_ipn.php'; ?>

@@ -1,6 +1,26 @@
 <?php $path = isset($volver) ? '../' : ''; ?>
 
 <footer class="piePagina">
+  <!-- Aviso IPN -->
+  <div class="bg--grisOscuro">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 pl-7 piePagina-texto">
+          <h3 class="text-center piePagina-titulo">
+          </h3>
+          <p>
+          </p>
+          <br />
+          <p>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 pl-7">
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
 
 <footer class="main-footer">
@@ -8,8 +28,8 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-3">
-          <img alt="GOBIERNO" src="img/GOBIERNO.png" href="/"
-           class="logo_footer">
+          <img data-v-9e928f9a="" src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg" href="/"
+               alt="logo gobierno de mÃƒÂ©xico" class="logo_footer" style="max-width: 90%;">
         </div>
         <div class="col-sm-3">
           <h5>Enlaces</h5>
@@ -20,9 +40,15 @@
               </a>
             </li>
             <li>
+              <a href="https://www.gob.mx/publicaciones" target="_blank" rel="noopener"
+                 title="Enlace abre en ventana nueva">
+                Publicaciones Oficiales
+              </a>
+            </li>
+            <li>
               <a href="http://www.ordenjuridico.gob.mx" target="_blank" rel="noopener"
                  title="Enlace abre en ventana nueva">
-                Marco Jurídico<br>
+                Marco Jurídico
               </a>
             </li>
             <li>
@@ -32,55 +58,71 @@
               </a>
             </li>
             <li>
-              <a href="https://transparencia.gob.mx/home.html" target="_blank" rel="noopener"
+              <a href="https://alertadores.funcionpublica.gob.mx/" target="_blank" rel="noopener"
                  title="Enlace abre en ventana nueva">
-                Transparencia para el pueblo<br>
+                Alerta
               </a>
             </li>
             <li>
-              <a href="https://alertadores.funcionpublica.gob.mx/" target="_blank" rel="noopener"
+              <a href="https://sidec.funcionpublica.gob.mx" target="_blank" rel="noopener"
                  title="Enlace abre en ventana nueva">
-                Alerta<br>
+                Denuncia
               </a>
             </li>
-            
           </ul>
         </div>
         <div class="col-sm-3">
           <h5>¿Qué es gob.mx?</h5>
-          <br>
           <p>
             Es el portal único de trámites, información y participación ciudadana.
+            <br>
             <a href="https://www.gob.mx/que-es-gobmx">
               Leer más
             </a>
           </p>
           <ul>
             <li><a href="https://datos.gob.mx">
-                Portal de datos abiertos<br>
+                Portal de datos abiertos
               </a>
             </li>
             <li>
               <a href="https://www.gob.mx/accesibilidad">
-                Declaración de accesibilidad<br>
+                Declaración de accesibilidad
               </a>
             </li>
-           
-           
+            <li>
+              <a href="https://www.gob.mx/privacidadintegral">
+                Aviso de privacidad integral
+              </a>
+            </li>
+            <li>
+              <a href="https://www.gob.mx/privacidadsimplificado">
+                Aviso de privacidad simplificado
+              </a>
+            </li>
             <li>
               <a href="https://www.gob.mx/terminos">
-                Términos y Condiciones<br>
+                Términos y Condiciones
               </a>
+            </li>
+            <li>
+              <a href="https://www.gob.mx/terminos#medidas-seguridad-informacion">
+                Política de seguridad
+              </a>
+            </li>
+            <li>
+              <a href="https://www.gob.mx/sitemap">
+                Mapa de sitio
+              </a>
+            </li>
           </ul>
         </div>
         <div class="col-sm-3">
-          <h5 class="enlace-denuncia mb-4">
-        <a href="https://www.gob.mx/tramites/ficha/presentacion-de-quejas-y-denuncias-en-la-sfp/SFP54">
-        Denuncia contra servidores<br>
-        públicos
-       </a>
-      </h5>
-      <br>
+          <h5>
+            <a href="https://www.gob.mx/tramites/ficha/presentacion-de-quejas-y-denuncias-en-la-sfp/SFP54">
+              Denuncia contra servidores públicos
+            </a>
+          </h5>
           <h5>
             Síguenos en
           </h5>
@@ -97,27 +139,7 @@
                 <img alt="Twitter" src="https://framework-gb.cdn.gob.mx/landing/img/twitter.png">
               </a>
             </li>
-            <li>
-              <a target="_blank" rel="noopener" title="Enlace abre en ventana nueva"
-                 href="https://www.instagram.com/gobmexico/">
-                <img alt="Instagram" src="img/Instagram.png" width="30" height="30">
-              </a>
-            </li>
-            <li>
-              <a target="_blank" rel="noopener" title="Enlace abre en ventana nueva"
-                 href="https://www.youtube.com/@gobiernodemexico">
-                <img alt="Youtube" src="img/youtube.png" width="30" height="30">
-              </a>
-            </li>
           </ul>
-          <div class="d-flex align-items-center gap-3 mt-0 text-white">
-          <img src="img/simbolo.png" alt="" class="icono-079">
-          <h5 class="mb-0 fw-bold fs-2 text-white">079</h5>
-          <div class="text-white lh-sm" style="font-size: 0.85rem;">
-          Comunícate, estamos<br>para ayudarte
-          </div>
-</div>
-</div>
         </div>
       </div>
     </div>
@@ -125,6 +147,8 @@
   <div class="container-fluid footer-pleca">
     <div class="row">
       <div class="col">
+        <br>
+        <br>
       </div>
     </div>
   </div>

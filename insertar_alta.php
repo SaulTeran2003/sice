@@ -89,7 +89,7 @@ if ($result === false) {
 if (count($result) > 0) {
     // Ya existe el CURP en la tabla, muestra una alerta
     echo "<script>alert('Ya existe este CURP en la base de datos. Sera redirigido para modificar la informacion');";
-    echo "window.location = '/sicah-web/consultas/modifica.php';</script>";
+    echo "window.location = '/sicexd/consultas/modifica.php';</script>";
 } else {
 
 if($_FILES["Foto"]["error"]==0){

@@ -1,5 +1,5 @@
 {
-    "name": "administrador/sicah-web",
+    "name": "administrador/sice",
     "require": {
         "phpmailer/phpmailer": "^6.7",
         "vlucas/phpdotenv": "^5.5"

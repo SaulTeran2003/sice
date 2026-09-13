@@ -11,8 +11,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SICAH bajas</title>
-    <link rel="icon" href="img/logoSICAH.ico" type="image/x-icon">
+    <title>SICE bajas</title>
+    <link rel="icon" href="img/logoSICE.png" type="image/png">
     <link href="./css/bootstrap.min.css" rel="stylesheet" />
     <link href="./css/styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -48,7 +48,7 @@
 
     <div class="row justify-content-around align-items-start vh-60">
         <div class="card" style="width: 18rem; height: 410px" align="center">
-            <img class="card-img-top" src="img\Logo Sicah.png" style="width: 400; height: 200px;"/>
+            <img class="card-img-top" src="img/logoSICE.png" style="width: 400; height: 200px;"/>
             <div class="card-body">
                 <h5 class="card-title">Realiza una alta</h5><br>
                 <p class="card-text ">Realizar un alta de personal.</p><br><br>
@@ -57,7 +57,7 @@
         </div>
 
         <div class="card" style="width: 18rem; height: 410px" align="center">
-            <img class="card-img-top" src="img\Logo Sicah.png" style="width: 400; height: 200px;"/>
+            <img class="card-img-top" src="img/logoSICE.png" style="width: 400; height: 200px;"/>
             <div class="card-body">
                 <h5 class="card-title">Realiza una baja.</h5><br>
                 <p class="card-text">Dar de baja a personal</p><br><br>

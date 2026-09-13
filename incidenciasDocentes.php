@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <!-- <link rel="stylesheet" href="css/stylesIncidencias.css"> -->
     <link href="./css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="img/logoSICAH.ico" type="image/x-icon">
+    <link rel="icon" href="img/logoSICE.png" type="image/png">
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <!-- JavaScript Bundle with Popper -->

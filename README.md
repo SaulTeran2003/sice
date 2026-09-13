@@ -1,11 +1,13 @@
-# sicah-web
+# SICE
+
+Sistema Integral de Comunicaciones y Electrónica.
 
 ## Project setup
 
 Descargar el repositorio ejecutando el siguiente comando desde la terminal (dentro del directorio donde se ejecutan los proyectos de XAMPP):
 
 ```sh
-git clone https://github.com/sicah-esimez/sicah-web.git
+git clone https://github.com/SaulTeran2003/sice.git
 ```
 
 Instalar las dependencias del proyecto ejecutando el siguiente comando desde la terminal (dentro del directorio del proyecto):
